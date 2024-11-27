@@ -11,12 +11,16 @@ body {
   background-size: cover; */
 
   background: url(./img/bg-mobile.jpg) no-repeat top center/cover;
-  height: 100vh;
 }
 
 body * {
   font-family: "Inter", sans-serif;
   color: white;
+}
+
+#wrapper {
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 #container {
